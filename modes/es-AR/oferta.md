@@ -21,7 +21,7 @@ En la tabla del Role Summary, sumá estas filas:
 
 ## Bloque B — agregado
 
-Un requisito de idioma que el aviso declara va como fila `critical (stated)` con la cita textual. Si el Language Gate dio PASA, el Match es `➖ N/A` (regla de `modes/oferta.md` → Block B); si dio BLOQUEA, es un `hard_stop` y el Verdict lo dice.
+Un requisito de idioma que el aviso declara obligatorio va como fila `critical (stated)` con la cita textual; uno "deseable" o "valorable" no es `critical`. Si el Language Gate dio PASA, el Match es `➖ N/A` (regla de `modes/oferta.md` → Block B); si dio BLOQUEA, es un `hard_stop` y el Verdict lo dice.
 
 ## Bloque D — remuneración argentina
 

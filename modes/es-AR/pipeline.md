@@ -7,7 +7,8 @@ Extiende **`modes/pipeline.md`**: seguí ese modo completo (qué bandeja usar, b
 ## Lectura acotada (igual que el modo canónico)
 
 - **Nunca leas `data/pipeline.md` entero:** guarda cada URL procesada y en una búsqueda activa supera los 100k tokens. Buscá los pendientes con `grep -n -m 20 '^- \[ \] ' data/pipeline.md` y repetí la búsqueda después de cada lote, hasta que solo muestre ítems que dejaste en Pendientes en esta pasada.
-- **Texto del aviso:** primero `node fetch-jd.mjs <url>` (sin navegador, para los ATS que conoce); si no devuelve nada, `node browser-extract.mjs <url>`; si tampoco, el flujo de extracción de `modes/pipeline.md`.
+- **Texto del aviso:** primero `node fetch-jd.mjs <url>` (sin navegador, para los ATS que conoce). Si no devuelve nada, seguí el flujo de extracción de `modes/pipeline.md`.
+- **Opcional — extractor CLI (`scan.extractor: cli` en `config/profile.yml`):** en lugar del snapshot, corré `node browser-extract.mjs <url>` (`--mode jd`), que devuelve `{ "url", "title", "text" }` con muchos menos tokens. Si falla o no está disponible, volvé en silencio a `browser_navigate` + `browser_snapshot`.
 
 ## Agregados para Argentina
 

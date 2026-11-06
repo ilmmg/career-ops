@@ -34,7 +34,7 @@ language:
 
 `language.output` decide el idioma de lo que se escribe (informes, CV, cartas); `modes_dir` aporta las reglas del mercado. Si buscás en paralelo en otro mercado, declaralos los dos (`modes_dir: [modes/es-AR, modes]`): el primero aporta el modo de evaluación, y el mercado de cada aviso se decide por sus propias señales (ver AGENTS.md → "Output Language vs Market Modes").
 
-Para que el chequeo de autorización de trabajo funcione, completá también `location.authorized_in: ["Argentina"]` y `location.needs_sponsorship` en `config/profile.yml`, y poné tu nivel de idiomas en `cv.md`.
+Para que el chequeo de autorización de trabajo funcione, completá también en `config/profile.yml` `location.authorized_in: ["Argentina"]` (más cualquier país donde ya tengas permiso de trabajo) y `location.needs_sponsorship: true` si para trabajar en relación de dependencia en otro país necesitarías una visa. Poné tu nivel de idiomas en `cv.md`: el Language Gate lo lee de ahí.
 
 ## ¿Qué modos cubre?
 

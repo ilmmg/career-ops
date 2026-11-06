@@ -73,8 +73,9 @@ Antes de puntuar, compará cada requisito de idioma del **rol** (no el idioma en
 | Supera por 1 escalón el nivel declarado (pide B1, declaró A2) | **RIESGO** — puntuá normal, avisalo y sugerí cómo prepararse |
 | Igual o menor, "deseable / valorable / plus", o no lo pide | **PASA** |
 
+- BLOQUEA solo sale de un requisito que el aviso declara obligatorio (`stated` en `modes/oferta.md` → Block B). Un requisito `inferred` nunca suma `hard_stops`.
 - Equivalencias habituales: "fluent / advanced / excellent" ≈ C1; "upper-intermediate / intermedio avanzado" ≈ B2; "intermediate / conversational" ≈ B1; "basic / lectura técnica" ≈ A2. Ante la duda entre dos niveles, tomá el más alto y marcá RIESGO: decide la persona.
-- Un aviso en inglés que no dice nada del idioma implica inglés de trabajo (≈ B2): RIESGO o BLOQUEA según el nivel declarado.
+- Un aviso en inglés que no dice nada del idioma suele implicar inglés de trabajo (≈ B2), pero es un requisito inferido: como mucho RIESGO, nunca BLOQUEA. Sumá la pregunta "¿en qué idioma es el trabajo del día a día?" al plan de entrevista.
 - Nunca subas el nivel declarado en un CV, una carta o un formulario.
 
 ## Remuneración (Bloque D)
