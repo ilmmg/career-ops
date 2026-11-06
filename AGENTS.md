@@ -392,6 +392,7 @@ Default modes are in `modes/` (English). Market-specific mode sets (each include
 | Turkish (Turkey) | `modes/tr/` | `is-ilani` / `basvuru` | SGK, kıdem tazminatı, brüt/net maaş, BES |
 | Hindi (India) | `modes/hi/` | `naukri` / `aavedan` | CTC vs. in-hand, PF/EPF, Notice period/buyout, ESOPs |
 | Spanish (ES/LatAm) | `modes/es/` | `oferta` / `aplicar` | Contrato indefinido, convenio, pagas extra, Seguridad Social |
+| Spanish (Argentina) | `modes/es-AR/` | `oferta` / `aplicar` | relación de dependencia, monotributo, aguinaldo (SAC), Ganancias, dólar MEP |
 | Portuguese (BR/PT) | `modes/pt/` | `oferta` / `aplicar` | CLT, PJ, FGTS, 13º, férias, vale-refeição |
 | Italian (Italy) | `modes/it/` | `annuncio` / `candidarsi` | CCNL, tempo indeterminato, tredicesima |
 | Dutch (NL/BE) | `modes/nl/` | `vacature` / `solliciteren` | vakantiegeld, proeftijd, opzegtermijn, pensioen |

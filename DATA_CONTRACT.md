@@ -141,6 +141,7 @@ These files contain system logic, scripts, templates, and instructions that impr
 | `modes/da/*` | Danish language modes |
 | `modes/de/*` | German language modes |
 | `modes/es/*` | Spanish language modes |
+| `modes/es-AR/*` | Argentina market modes |
 | `modes/fr/*` | French language modes |
 | `modes/hi/*` | Hindi language modes |
 | `modes/id/*` | Indonesian language modes |
